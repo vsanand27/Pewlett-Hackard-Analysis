@@ -32,7 +32,7 @@ Based on the result, we propose to train the mentors for the new opportunities, 
 
 ![alt text](https://github.com/vsanand27/Pewlett-Hackard-Analysis/blob/master/Mentor_title_count_summary.PNG)
 
-Additional Attachments in Git:
+Additional Attachments on Github:
 1) Schema.SQL
 2) Challenge_SQL_Queries
 3) Detail Retiree and Mentor tables
