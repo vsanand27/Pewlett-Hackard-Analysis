@@ -14,7 +14,7 @@ Purpose of this App is to help people choose thier travel desitination based on 
 
 ## Retiree Title Count Analysis
 
-![alt text](https://github.com/vsanand27/World_Weather_Analysis/blob/master/weather_data/WeatherPy_vacation_map.PNG)
+![alt text](https://github.com/vsanand27/Pewlett-Hackard-Analysis/blob/master/Retiree_title_Count_with_and_without_duplication.PNG)
 
 ## Potential Mentorship Opportunities for Employees born in 1965
 
