@@ -3,9 +3,11 @@ Human Resource Analytics - Reviewing Retiring population via attrition and Poten
 
 # Purpose
 Purpose of this assignment is to help Human Resource analyze thier concern for retiring population and solicit future leaders as mentor to replace the aging population.  This is a concern for many companies these days.  
-1.	The relationships that mapped out with the ERD that helped create Retiree and Potential Mentorship Opportunities
-2.	Employees in-scope of Retirement by title to mitigate future attrition risk
-3.	Additional Employee ideally born in 1965 who would be good candidates for a supervisory/mentorship roles.
+
+Our task is to develop database for Pewlett-Hackard that will store and analyze employee that will
+1.	Describe the relationships between employee tables to show Enterprise Relationship Diagram
+2.	Provide analysis of in-sope Retired Employees to show future risk due to Aging Poplulation
+3.	Develop list of Potential employee ideally born in 1965 who would be good candidates for a supervisory/mentorship roles.
 
 ## ERD TABLE - Employee Schema 
 
