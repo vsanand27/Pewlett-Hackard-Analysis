@@ -31,3 +31,8 @@ Pewlett-Hackard is looking at titles with people born in 1965 that will be able 
 Based on the result, we propose to train the mentors for the new opportunities, Flexible work hours to delay retirement, and meanwhile recruit new talent to train and develop skills required for the strategic posiiton of the company.
 
 ![alt text](https://github.com/vsanand27/Pewlett-Hackard-Analysis/blob/master/Mentor_title_count_summary.PNG)
+
+Additional Attachments in Git:
+1) Schema.SQL
+2) Challenge_SQL_Queries
+3) Detail Retiree and Mentor tables
