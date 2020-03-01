@@ -1,5 +1,5 @@
 # Pewlett-Hackard-Analysis
-Human Resource Analytics - Reviewing Recruitment Trends utilizing SQL
+Human Resource Analytics - Reviewing Retiring population via attrition and Potential recruitment opportunities utilizing SQL, quick database diagram website of ERD and PgAdmin
 
 # Purpose
 Purpose of this App is to help people choose thier travel desitination based on Temprature and Weather Conditions including:
