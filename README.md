@@ -2,20 +2,30 @@
 Human Resource Analytics - Reviewing Retiring population via attrition and Potential recruitment opportunities utilizing SQL, quick database diagram website of ERD and PgAdmin
 
 # Purpose
-Purpose of this App is to help people choose thier travel desitination based on Temprature and Weather Conditions including:
+Purpose of this assignment is to help Human Resource analyze thier concern for retiring population and solicit future leaders as mentor to replace the aging population.  This is a concern for many companies these days.  
 1.	The relationships that mapped out with the ERD that helped create Retiree and Potential Mentorship Opportunities
 2.	Employees in-scope of Retirement by title to mitigate future attrition risk
 3.	Additional Employee ideally born in 1965 who would be good candidates for a supervisory/mentorship roles.
 
 ## ERD TABLE - Employee Schema 
 
+The table show Baseline Enterprise Wide Database for Employees with underlying relationship between tables.  All Queries are based on these underlying tables.  The primary Key's and Foreign keys in between employee tables help with linking information between tables. 
+
 ![alt text](https://github.com/vsanand27/Pewlett-Hackard-Analysis/blob/master/EmployeeDB_v2.PNG)
 
 
 ## Retiree Title Count Analysis
 
+Pewlett-Hackard is faced with aging population that is about to retire.  We developed the dataset based on the instructions.  The scope of analysis was based on defining aging population with birth date between years 1952 to 1955 and hire date between years 1985 to 1988 that are current utilizing to_date in dept employee table.  The Query returned 54,722 that includes multiple titles held at various times by the retirerment population. 
+
+Therefore, we recommed to include in the title table and utilize "to_date" to obtain the most current title based.  The result set will bring 33,118 actual titles currently held by retired employees to appropriately measure the exposure for Pewlett-Hackard based on retiring population.
+
 ![alt text](https://github.com/vsanand27/Pewlett-Hackard-Analysis/blob/master/Retiree_title_Count_with_and_without_duplication.PNG)
 
 ## Potential Mentorship Opportunities for Employees born in 1965
 
-![alt text](https://github.com/vsanand27/World_Weather_Analysis/blob/master/weather_data/WeatherPy_travel_map_markers.PNG)
+Pewlett-Hackard is looking at titles with people born in 1965 that will be able to supervise and become mentors for the organization as the next generation of steward leaders of the business.  The problem idenitified is that we only have 1,549 potential mentors and the aging population is 33,118.  
+
+Based on the result, we propose to train the mentors for the new opportunities, Flexible work hours to delay retirement, and meanwhile recruit new talent to train and develop skills required for the strategic posiiton of the company.
+
+![alt text](https://github.com/vsanand27/Pewlett-Hackard-Analysis/blob/master/Mentor_title_count_summary.PNG)
