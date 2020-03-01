@@ -11,7 +11,7 @@ Our task is to develop database for Pewlett-Hackard that will store and analyze 
 
 ## ERD TABLE - Employee Schema 
 
-The table show Enterprise Wide Database for Employees with underlying relationship between various  tables.  All Queries are based on these underlying tables.  The primary Key's and Foreign keys in between employee tables help with linking information between tables. 
+The table show Enterprise Wide Database for Employees with underlying relationship between various  tables.  All Queries are based on these underlying tables.  The primary Key's and Foreign keys in between employee tables help link information between tables. 
 
 ![alt text](https://github.com/vsanand27/Pewlett-Hackard-Analysis/blob/master/EmployeeDB_v2.PNG)
 
