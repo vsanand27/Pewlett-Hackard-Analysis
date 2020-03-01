@@ -81,3 +81,63 @@ INTO retirement_info
 FROM employees
 WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
 AND (hire_date BETWEEN '1985-01-01' AND '1988-12-31');
+
+-- Challenge
+SELECT e.emp_no, e.first_name, e.last_name,e.gender, e.birth_date,e.hire_date,
+	s.salary, 
+	t.title, t.from_date, t.to_date,
+	de.to_date, de.dept_no
+FROM employees AS e
+INNER JOIN salaries AS s
+ON (e.emp_no = s.emp_no)
+INNER JOIN dept_emp AS de
+ON (e.emp_no = de.emp_no)
+INNER JOIN titles AS t
+ON (e.emp_no=t.emp_no)
+WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+       AND (e.hire_date BETWEEN '1985-01-01' AND '1988-12-31')
+	   AND (t.to_date = '9999-01-01')
+	   AND (de.to_date='9999-01-01')
+ORDER BY e.birth_date;
+
+SELECT e.emp_no, e.first_name, e.last_name,e.gender, e.birth_date,e.hire_date,
+	s.salary, 
+	t.title, t.from_date, t.to_date,
+	de.to_date, de.dept_no,
+	d.dept_no, d.dept_name
+FROM employees AS e
+INNER JOIN salaries AS s
+ON (e.emp_no = s.emp_no)
+INNER JOIN dept_emp AS de
+ON (e.emp_no = de.emp_no)
+INNER JOIN titles AS t
+ON (e.emp_no=t.emp_no)
+INNER JOIN departments AS d
+ON (de.dept_no=d.dept_no)
+WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+       AND (e.hire_date BETWEEN '1985-01-01' AND '1988-12-31')
+	   AND (t.to_date = '9999-01-01')
+	   AND (de.to_date='9999-01-01')
+ORDER BY e.birth_date;
+
+- - TASK 1 CREATED NEW RITEREE TABLE	   
+SELECT e.emp_no, e.first_name, e.last_name,e.gender, e.birth_date,e.hire_date,
+	s.salary, 
+	t.title, t.from_date, t.to_date,
+	de.to_date, de.dept_no,
+	d.dept_no, d.dept_name
+INTO 
+FROM employees AS e
+INNER JOIN salaries AS s
+ON (e.emp_no = s.emp_no)
+INNER JOIN dept_emp AS de
+ON (e.emp_no = de.emp_no)
+INNER JOIN titles AS t
+ON (e.emp_no=t.emp_no)
+INNER JOIN departments AS d
+ON (de.dept_no=d.dept_no)
+WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+       AND (e.hire_date BETWEEN '1985-01-01' AND '1988-12-31')
+	   AND (t.to_date = '9999-01-01')
+	   AND (de.to_date='9999-01-01')
+ORDER BY e.birth_date,d.dept_name;
