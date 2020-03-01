@@ -18,7 +18,7 @@ The table show Enterprise Wide Database for Employees with underlying relationsh
 
 ## Retiree Title Count Analysis
 
-Pewlett-Hackard is faced with aging population that is about to retire.  We developed the dataset based on the instructions.  The scope of analysis was based on defining aging population with birth date between years 1952 to 1955 and hire date between years 1985 to 1988 that are current utilizing to_date in dept employee table.  The Query returned 54,722 that includes multiple titles held at various times by the retirerment population. 
+Pewlett-Hackard is faced with aging population that is about to retire.  We developed the dataset based on the instructions.  The scope of analysis was based on defining aging population with birth date between years 1952 to 1955 and hire date between years 1985 to 1988 coupled with to_date in dept employee table.  The Query returned 54,722 that includes multiple titles held at various times by the retirerment population. 
 
 Therefore, we recommed to include in the title table and utilize "to_date" to obtain the most current title based.  The result set will bring 33,118 actual titles currently held by retired employees to appropriately measure the exposure for Pewlett-Hackard based on retiring population.
 
