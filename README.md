@@ -1,6 +1,9 @@
 # Pewlett-Hackard-Analysis
 Human Resource Analytics - Reviewing Retiring population via attrition and Potential recruitment opportunities utilizing SQL, quick database diagram website of ERD and PgAdmin
 
+Schema Tables (SQL Code): https://github.com/vsanand27/Pewlett-Hackard-Analysis/blob/master/Queries/schema.sql
+Retirement and Mentor Views (SQL Joins): 
+
 # Purpose
 Purpose of this assignment is to help Human Resource analyze thier concern for retiring population and solicit future leaders as mentor to replace the aging population.  This is a concern for many companies these days.  
 
